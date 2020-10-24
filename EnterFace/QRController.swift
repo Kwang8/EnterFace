@@ -16,29 +16,14 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var preview: AVCaptureVideoPreviewLayer!
     var ref: DatabaseReference!
     var qrCodeFrameView: UIView?
+    var roomCap = 0
+    var roomMax = 0;
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
         session = AVCaptureSession()
-        //firebase test
-        /*Database.database().reference().setValue(["12345",4])
-        var ref = Database.database().reference().child("room1")
-        ref.observeSingleEvent(of: .childAdded, with: { (snapshot) in
-             if let Dict = snapshot.value as? [String:Any] {
-                  //Do not cast print it directly may be score is Int not string
-                print(Dict["Capacity"] ?? "none")
-                print(Dict["Max"] ?? "none")
-             }
-        })
-        ref = Database.database().reference()
-        ref.observeSingleEvent(of: .childAdded, with: { (snapshot) in
-             if let Dict = snapshot.value as? [String:Any] {
-                  //Do not cast print it directly may be score is Int not string
-                print(Dict["1234"] ?? "none")
-             }
-        })*/
         qrCodeFrameView = UIView()
-
+        
         if let qrCodeFrameView = qrCodeFrameView {
             qrCodeFrameView.layer.borderColor = UIColor.green.cgColor
             qrCodeFrameView.layer.borderWidth = 10
@@ -116,9 +101,40 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         }
     }
     func result(code: String) {
-        print(code)
+        retrieve(code: code , completion: { message in
+            if (self.roomCap == 0 && self.roomMax == 0) {
+                let alert = UIAlertController(title: "Scanning did not work", message: "try again", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+                    self.dismiss(animated: true, completion: nil)
+                }))
+                self.present(alert, animated: true)
+            }
+            else if (self.roomCap >= self.roomMax) {
+                let alert = UIAlertController(title: "Sorry room is at max Capacity", message: "comback later", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+                    self.dismiss(animated: true, completion: nil)
+                }))
+                self.present(alert, animated: true)
+            }
+            else {
+                self.performSegue(withIdentifier: "toFace", sender: self)
+            }
+        })
+
     }
     
+    func retrieve(code: String, completion: @escaping (String) -> Void) {
+        var ref = Database.database().reference().child(code)
+        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+             if let Dict = snapshot.value as? [String:Any] {
+                self.roomCap = Dict["capacity"] as! Int
+                self.roomMax = Dict["max"] as! Int
+                completion("DONE")
+            }
+            completion("DONE")
+        })
+        
+    }
     override var prefersStatusBarHidden: Bool {
         return true
     }
@@ -126,4 +142,6 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
+    
 }
+

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-id-xSP">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-id-xSP">
                                 <rect key="frame" x="161" y="416" width="93" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -25,8 +27,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="hv6-fG-GbD"/>
                 </viewController>
@@ -41,12 +43,12 @@
                     <view key="view" contentMode="scaleToFill" id="0l1-dc-pkt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="AXb-oQ-aQn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="iu2-jv-mA9"/>
                     <connections>
-                        <segue destination="fLp-Bc-n2v" kind="show" id="bMS-jj-Loa"/>
+                        <segue destination="fLp-Bc-n2v" kind="show" identifier="toFace" id="bMS-jj-Loa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pve-ni-buz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -60,8 +62,8 @@
                     <view key="view" contentMode="scaleToFill" id="dgt-JP-cwA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="uD2-e6-AZS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="kEZ-ro-f1F"/>
                     <connections>
@@ -86,7 +88,7 @@
                                     <constraint firstAttribute="height" constant="321" id="CY6-O0-3J2"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFM-R9-hOC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFM-R9-hOC">
                                 <rect key="frame" x="149" y="577" width="116" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="KXy-WR-85y"/>
@@ -106,7 +108,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0Jd-2W-6tf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ZFM-R9-hOC" firstAttribute="leading" secondItem="0Jd-2W-6tf" secondAttribute="leading" constant="149" id="2Mn-96-eID"/>
                             <constraint firstItem="sTJ-Xv-D1E" firstAttribute="leading" secondItem="0Jd-2W-6tf" secondAttribute="leading" constant="145" id="9GO-gz-yVF"/>
@@ -118,7 +121,6 @@
                             <constraint firstItem="PrW-lN-HrC" firstAttribute="top" secondItem="sTJ-Xv-D1E" secondAttribute="bottom" constant="22" id="oys-6T-5qw"/>
                             <constraint firstItem="PrW-lN-HrC" firstAttribute="centerX" secondItem="ZFM-R9-hOC" secondAttribute="centerX" id="sNF-7H-yyc"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0Jd-2W-6tf"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ky2-j8-cqW"/>
                     <connections>
@@ -132,4 +134,9 @@
             <point key="canvasLocation" x="1014" y="-700"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
