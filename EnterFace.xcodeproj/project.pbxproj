@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4837B20625449ECC00E4F811 /* MaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837B20525449ECC00E4F811 /* MaskController.swift */; };
 		4837B2082544A10F00E4F811 /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837B2072544A10F00E4F811 /* RoomController.swift */; };
 		4837B20A2544A5E600E4F811 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4837B2092544A5E600E4F811 /* GoogleService-Info.plist */; };
+		48C4178B2544E6C300158B7E /* maskModel 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 48C4178A2544E6C300158B7E /* maskModel 1.mlmodel */; };
 		48DA09D1254487350065CFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA09D0254487350065CFC0 /* AppDelegate.swift */; };
 		48DA09D3254487350065CFC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA09D2254487350065CFC0 /* SceneDelegate.swift */; };
 		48DA09D5254487350065CFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA09D4254487350065CFC0 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		4837B20525449ECC00E4F811 /* MaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskController.swift; sourceTree = "<group>"; };
 		4837B2072544A10F00E4F811 /* RoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
 		4837B2092544A5E600E4F811 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48C4178A2544E6C300158B7E /* maskModel 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "maskModel 1.mlmodel"; sourceTree = SOURCE_ROOT; };
 		48DA09CD254487350065CFC0 /* EnterFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DA09D0254487350065CFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48DA09D2254487350065CFC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				8502EB8E1A011B2EE6587FD8 /* Pods-EnterFaceTests.debug.xcconfig */,
 				D74899EBE06E150A018C7BF2 /* Pods-EnterFaceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +153,7 @@
 				48DA09E12544873C0065CFC0 /* Info.plist */,
 				48DA09D9254487350065CFC0 /* EnterFace.xcdatamodeld */,
 				4837B2092544A5E600E4F811 /* GoogleService-Info.plist */,
+				48C4178A2544E6C300158B7E /* maskModel 1.mlmodel */,
 			);
 			path = EnterFace;
 			sourceTree = "<group>";
@@ -425,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48DA09D5254487350065CFC0 /* ViewController.swift in Sources */,
+				48C4178B2544E6C300158B7E /* maskModel 1.mlmodel in Sources */,
 				4837B2082544A10F00E4F811 /* RoomController.swift in Sources */,
 				48DA09D1254487350065CFC0 /* AppDelegate.swift in Sources */,
 				48DA0A0425448B1E0065CFC0 /* QRController.swift in Sources */,

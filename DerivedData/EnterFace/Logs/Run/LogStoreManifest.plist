@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>020B93E5-3ADD-4082-A22D-48EE7EB3F73A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>020B93E5-3ADD-4082-A22D-48EE7EB3F73A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625277141.89553404</real>
+			<key>timeStoppedRecording</key>
+			<real>625277193.75359404</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>020B93E5-3ADD-4082-A22D-48EE7EB3F73A</string>
+		</dict>
 		<key>06CA8F8E-0C9F-4E15-AE3C-DECEF3167D81</key>
 		<dict>
 			<key>className</key>
@@ -73,6 +107,244 @@
 			<string>Run EnterFace</string>
 			<key>uniqueIdentifier</key>
 			<string>2104195D-CDC8-4493-BEF2-D21E9517A9CB</string>
+		</dict>
+		<key>2AC70E53-1B41-478A-B1B4-6188AE0573D7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2AC70E53-1B41-478A-B1B4-6188AE0573D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271312.786847</real>
+			<key>timeStoppedRecording</key>
+			<real>625271372.52134299</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>2AC70E53-1B41-478A-B1B4-6188AE0573D7</string>
+		</dict>
+		<key>2B1C3743-AD10-4173-AAC5-FBEBDF8449B5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2B1C3743-AD10-4173-AAC5-FBEBDF8449B5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625273949.12469399</real>
+			<key>timeStoppedRecording</key>
+			<real>625274306.88934696</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>2B1C3743-AD10-4173-AAC5-FBEBDF8449B5</string>
+		</dict>
+		<key>2C077865-525A-4F4A-8E21-FEF9A8E16242</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2C077865-525A-4F4A-8E21-FEF9A8E16242.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625276259.20568097</real>
+			<key>timeStoppedRecording</key>
+			<real>625277132.27519095</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>2C077865-525A-4F4A-8E21-FEF9A8E16242</string>
+		</dict>
+		<key>2C429D07-7196-455E-BB99-6C904EABBB18</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2C429D07-7196-455E-BB99-6C904EABBB18.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625270604.14754105</real>
+			<key>timeStoppedRecording</key>
+			<real>625270655.42389202</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>2C429D07-7196-455E-BB99-6C904EABBB18</string>
+		</dict>
+		<key>376027FF-FD07-43DF-9B5C-AB94CD1B2AAE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>376027FF-FD07-43DF-9B5C-AB94CD1B2AAE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625277196.12760198</real>
+			<key>timeStoppedRecording</key>
+			<real>625277233.89923096</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>376027FF-FD07-43DF-9B5C-AB94CD1B2AAE</string>
+		</dict>
+		<key>3BAC288B-CF2C-4259-B922-099B6E8984F8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3BAC288B-CF2C-4259-B922-099B6E8984F8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625277266.11552894</real>
+			<key>timeStoppedRecording</key>
+			<real>625277344.13089395</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>3BAC288B-CF2C-4259-B922-099B6E8984F8</string>
+		</dict>
+		<key>45877A79-73F4-491F-A5B5-63630BE44A46</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>45877A79-73F4-491F-A5B5-63630BE44A46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271572.41990602</real>
+			<key>timeStoppedRecording</key>
+			<real>625271609.74035394</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>45877A79-73F4-491F-A5B5-63630BE44A46</string>
 		</dict>
 		<key>4EE2DF4D-B358-407B-93D1-044775536EDC</key>
 		<dict>
@@ -210,6 +482,210 @@
 			<key>uniqueIdentifier</key>
 			<string>5786CF95-3EC7-46A7-8F8C-DCF4B47E6286</string>
 		</dict>
+		<key>5C22A8AB-832F-4A9D-8BB4-3602AE040AEC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5C22A8AB-832F-4A9D-8BB4-3602AE040AEC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271643.47261906</real>
+			<key>timeStoppedRecording</key>
+			<real>625271755.99733496</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>5C22A8AB-832F-4A9D-8BB4-3602AE040AEC</string>
+		</dict>
+		<key>5EFC5A84-DFD6-4F1E-BED9-627661715F43</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5EFC5A84-DFD6-4F1E-BED9-627661715F43.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625273823.49237096</real>
+			<key>timeStoppedRecording</key>
+			<real>625273946.368222</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>5EFC5A84-DFD6-4F1E-BED9-627661715F43</string>
+		</dict>
+		<key>6BBDAB90-1782-49F5-AF58-A0C01DAEA594</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6BBDAB90-1782-49F5-AF58-A0C01DAEA594.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271544.89311302</real>
+			<key>timeStoppedRecording</key>
+			<real>625271570.18806303</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>6BBDAB90-1782-49F5-AF58-A0C01DAEA594</string>
+		</dict>
+		<key>6C7A0F72-DC11-4439-8381-84DA6C379673</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6C7A0F72-DC11-4439-8381-84DA6C379673.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625270516.32705903</real>
+			<key>timeStoppedRecording</key>
+			<real>625270601.46644902</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>6C7A0F72-DC11-4439-8381-84DA6C379673</string>
+		</dict>
+		<key>6D6B6DD4-ECF1-4C35-878D-FDC9BC44A66E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6D6B6DD4-ECF1-4C35-878D-FDC9BC44A66E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625272100.13974595</real>
+			<key>timeStoppedRecording</key>
+			<real>625272141.43865502</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>6D6B6DD4-ECF1-4C35-878D-FDC9BC44A66E</string>
+		</dict>
+		<key>7389B553-8161-4110-AD93-0572BEAA3696</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7389B553-8161-4110-AD93-0572BEAA3696.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625274309.35376596</real>
+			<key>timeStoppedRecording</key>
+			<real>625275270.17387605</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>7389B553-8161-4110-AD93-0572BEAA3696</string>
+		</dict>
 		<key>80910535-6DB5-400F-8605-E90D468BD1EB</key>
 		<dict>
 			<key>className</key>
@@ -243,6 +719,74 @@
 			<string>Run EnterFace</string>
 			<key>uniqueIdentifier</key>
 			<string>80910535-6DB5-400F-8605-E90D468BD1EB</string>
+		</dict>
+		<key>81E08E38-FDB7-48BE-9126-15BB1ABB21BC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>81E08E38-FDB7-48BE-9126-15BB1ABB21BC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271003.76133001</real>
+			<key>timeStoppedRecording</key>
+			<real>625271310.39473999</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>81E08E38-FDB7-48BE-9126-15BB1ABB21BC</string>
+		</dict>
+		<key>882DC9FA-6F0D-44B5-9C1B-FACEA9DBFA03</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>882DC9FA-6F0D-44B5-9C1B-FACEA9DBFA03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625270883.35228598</real>
+			<key>timeStoppedRecording</key>
+			<real>625270952.34966099</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>882DC9FA-6F0D-44B5-9C1B-FACEA9DBFA03</string>
 		</dict>
 		<key>8B11548B-4D69-4F34-84B5-419EC0B88233</key>
 		<dict>
@@ -312,6 +856,40 @@
 			<key>uniqueIdentifier</key>
 			<string>90F26804-7749-41A1-968E-C454BBD02F3E</string>
 		</dict>
+		<key>953F68EF-8510-4FE0-B6E4-C1758E67FFFB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>953F68EF-8510-4FE0-B6E4-C1758E67FFFB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625277381.33234203</real>
+			<key>timeStoppedRecording</key>
+			<real>625277432.98780406</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>953F68EF-8510-4FE0-B6E4-C1758E67FFFB</string>
+		</dict>
 		<key>987C0092-F0AF-42D9-A876-3BAB08E05F37</key>
 		<dict>
 			<key>className</key>
@@ -345,6 +923,40 @@
 			<string>Run EnterFace</string>
 			<key>uniqueIdentifier</key>
 			<string>987C0092-F0AF-42D9-A876-3BAB08E05F37</string>
+		</dict>
+		<key>A171EF3E-7D40-4547-94F4-3864DF34F2FE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A171EF3E-7D40-4547-94F4-3864DF34F2FE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625275278.80620003</real>
+			<key>timeStoppedRecording</key>
+			<real>625276253.75227106</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>A171EF3E-7D40-4547-94F4-3864DF34F2FE</string>
 		</dict>
 		<key>A45C8951-71A1-4436-8CD7-2196D76E829B</key>
 		<dict>
@@ -414,6 +1026,142 @@
 			<key>uniqueIdentifier</key>
 			<string>A857F79F-0DED-447D-AB7D-BC8A91BEFBF8</string>
 		</dict>
+		<key>AB40B33F-D7E6-4932-9015-1B0AA3448A03</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AB40B33F-D7E6-4932-9015-1B0AA3448A03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625269667.22183895</real>
+			<key>timeStoppedRecording</key>
+			<real>625269797.06880605</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>AB40B33F-D7E6-4932-9015-1B0AA3448A03</string>
+		</dict>
+		<key>ADBDEE89-751B-4069-B193-75D838D55B54</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ADBDEE89-751B-4069-B193-75D838D55B54.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625270955.77396405</real>
+			<key>timeStoppedRecording</key>
+			<real>625270999.11060596</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>ADBDEE89-751B-4069-B193-75D838D55B54</string>
+		</dict>
+		<key>B5499D2E-6ACA-401F-80FF-4F1B6CCC6182</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B5499D2E-6ACA-401F-80FF-4F1B6CCC6182.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625272144.79262495</real>
+			<key>timeStoppedRecording</key>
+			<real>625272239.07985902</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>B5499D2E-6ACA-401F-80FF-4F1B6CCC6182</string>
+		</dict>
+		<key>B9CF6FCA-2490-490E-9327-759CC5E8A7FD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B9CF6FCA-2490-490E-9327-759CC5E8A7FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625269804.75315106</real>
+			<key>timeStoppedRecording</key>
+			<real>625269835.97774601</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>B9CF6FCA-2490-490E-9327-759CC5E8A7FD</string>
+		</dict>
 		<key>BBB6EF16-2754-4E22-BDB0-F3E3A540448F</key>
 		<dict>
 			<key>className</key>
@@ -448,6 +1196,40 @@
 			<key>uniqueIdentifier</key>
 			<string>BBB6EF16-2754-4E22-BDB0-F3E3A540448F</string>
 		</dict>
+		<key>BE140A76-941A-47AE-808D-934BB36900DC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BE140A76-941A-47AE-808D-934BB36900DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625272143.93962598</real>
+			<key>timeStoppedRecording</key>
+			<real>625272148.03106499</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>BE140A76-941A-47AE-808D-934BB36900DC</string>
+		</dict>
 		<key>C463441F-8C62-4BB2-83EA-3FE2D78563D5</key>
 		<dict>
 			<key>className</key>
@@ -481,6 +1263,40 @@
 			<string>Run EnterFace</string>
 			<key>uniqueIdentifier</key>
 			<string>C463441F-8C62-4BB2-83EA-3FE2D78563D5</string>
+		</dict>
+		<key>D4D4B355-C23F-45A7-9C8D-B9602E68AB9F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D4D4B355-C23F-45A7-9C8D-B9602E68AB9F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271795.996719</real>
+			<key>timeStoppedRecording</key>
+			<real>625272012.29426003</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>D4D4B355-C23F-45A7-9C8D-B9602E68AB9F</string>
 		</dict>
 		<key>D8E2A225-58D8-41FF-846B-F41C653D78EE</key>
 		<dict>
@@ -584,6 +1400,74 @@
 			<key>uniqueIdentifier</key>
 			<string>DD6C3DD7-44DE-4944-93DA-489DAAC9F487</string>
 		</dict>
+		<key>DEEA9C68-1448-4133-B1A1-1E1CE087F9EE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DEEA9C68-1448-4133-B1A1-1E1CE087F9EE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625271503.392501</real>
+			<key>timeStoppedRecording</key>
+			<real>625271545.00691104</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>DEEA9C68-1448-4133-B1A1-1E1CE087F9EE</string>
+		</dict>
+		<key>DF0B4501-6D9E-4203-AFBA-1886D21E8092</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DF0B4501-6D9E-4203-AFBA-1886D21E8092.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625272419.51382601</real>
+			<key>timeStoppedRecording</key>
+			<real>625273381.02491605</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>DF0B4501-6D9E-4203-AFBA-1886D21E8092</string>
+		</dict>
 		<key>DF78023F-8B97-446D-936B-1C8BCEC8D987</key>
 		<dict>
 			<key>className</key>
@@ -617,6 +1501,108 @@
 			<string>Run EnterFace</string>
 			<key>uniqueIdentifier</key>
 			<string>DF78023F-8B97-446D-936B-1C8BCEC8D987</string>
+		</dict>
+		<key>F25B212D-6FA7-4DEC-A5BF-8A18C117840E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F25B212D-6FA7-4DEC-A5BF-8A18C117840E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625277435.67059803</real>
+			<key>timeStoppedRecording</key>
+			<real>625277464.22714102</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>F25B212D-6FA7-4DEC-A5BF-8A18C117840E</string>
+		</dict>
+		<key>FDB28F29-2975-420B-8C10-6ACDF94F107E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FDB28F29-2975-420B-8C10-6ACDF94F107E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625272014.85634005</real>
+			<key>timeStoppedRecording</key>
+			<real>625272036.55626297</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>FDB28F29-2975-420B-8C10-6ACDF94F107E</string>
+		</dict>
+		<key>FFEB9EED-6E64-4709-9193-F7C767DF50E4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FFEB9EED-6E64-4709-9193-F7C767DF50E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnterFace project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnterFace</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnterFace</string>
+			<key>timeStartedRecording</key>
+			<real>625277346.49324203</real>
+			<key>timeStoppedRecording</key>
+			<real>625277378.539294</real>
+			<key>title</key>
+			<string>Run EnterFace</string>
+			<key>uniqueIdentifier</key>
+			<string>FFEB9EED-6E64-4709-9193-F7C767DF50E4</string>
 		</dict>
 	</dict>
 </dict>

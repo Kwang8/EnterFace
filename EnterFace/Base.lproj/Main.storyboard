@@ -55,24 +55,34 @@
             </objects>
             <point key="canvasLocation" x="925" y="120"/>
         </scene>
-        <!--View Controller-->
+        <!--Mask Controller-->
         <scene sceneID="ZZS-e7-GgP">
             <objects>
-                <viewController id="fLp-Bc-n2v" sceneMemberID="viewController">
+                <viewController id="fLp-Bc-n2v" customClass="MaskController" customModule="EnterFace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dgt-JP-cwA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0Q-la-AUX">
+                                <rect key="frame" x="155" y="401" width="104" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scan"/>
+                                <connections>
+                                    <action selector="ScanPressed:" destination="fLp-Bc-n2v" eventType="touchUpInside" id="iQd-6T-xlc"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uD2-e6-AZS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="kEZ-ro-f1F"/>
                     <connections>
-                        <segue destination="ElG-5o-8vs" kind="show" id="rlO-kk-EWf"/>
+                        <segue destination="ElG-5o-8vs" kind="show" identifier="toRoom" id="rlO-kk-EWf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXh-nr-BNQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1771" y="131"/>
+            <point key="canvasLocation" x="1769.5652173913045" y="130.58035714285714"/>
         </scene>
         <!--Room Controller-->
         <scene sceneID="HeS-WU-wc8">

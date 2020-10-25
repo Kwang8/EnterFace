@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 import Firebase
-
+import FirebaseDatabase
 class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var session: AVCaptureSession!
     var preview: AVCaptureVideoPreviewLayer!
@@ -118,6 +118,8 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             }
             else {
                 self.performSegue(withIdentifier: "toFace", sender: self)
+                let defaults = UserDefaults.standard
+                defaults.set(25, forKey: "Age")
             }
         })
 
