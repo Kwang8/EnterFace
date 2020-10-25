@@ -42,6 +42,8 @@ class RoomController: UIViewController {
         roomName.text = roomNam
         var ref = Database.database().reference().child(qr)
         ref.child("capacity").setValue(roomCap)
+        self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
         performSegue(withIdentifier: "roomToHome", sender: self)
+        
     }
 }
