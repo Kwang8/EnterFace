@@ -77,17 +77,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="kEZ-ro-f1F"/>
                     <connections>
-                        <segue destination="ElG-5o-8vs" kind="show" identifier="toRoom" id="rlO-kk-EWf"/>
+                        <segue destination="ElG-5o-8vs" kind="show" identifier="toRoom" id="eIq-nC-AMp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXh-nr-BNQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1769.5652173913045" y="130.58035714285714"/>
         </scene>
-        <!--Room Controller-->
+        <!--RoomController-->
         <scene sceneID="HeS-WU-wc8">
             <objects>
-                <viewController id="ElG-5o-8vs" customClass="RoomController" customModule="EnterFace" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RoomController" id="ElG-5o-8vs" customClass="RoomController" customModule="EnterFace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9z4-c3-Ti7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

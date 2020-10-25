@@ -8,13 +8,18 @@
 
 import Foundation
 import UIKit
-
+import Firebase
 class MaskController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     var imagePicker: UIImagePickerController!
     let model = maskModel_1()
+    var check = 0
+    var ref: DatabaseReference!
+    var roomCap = 0
+    var qr = "";
+    var roomName = ""
     private let trainedImageSize = CGSize(width: 299, height: 299)
     override func viewDidLoad() {
-        
+        check = 0
     }
     
     @IBAction func ScanPressed(_ sender: Any) {
@@ -23,8 +28,20 @@ class MaskController: UIViewController, UINavigationControllerDelegate, UIImageP
         imagePicker.sourceType = .camera
         present(imagePicker, animated: true, completion: nil)
         
+        
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        if (check == 1) {
+            performSegue(withIdentifier: "toRoom", sender: self)
+            let userDefaults = UserDefaults.standard
+            roomCap = userDefaults.integer(forKey: "cap") ?? -5
+            roomName = userDefaults.string(forKey: "name") ?? "none"
+            qr = userDefaults.string(forKey: "qr") ?? "error"
+            var ref = Database.database().reference().child(qr)
+            ref.child("capacity").setValue(roomCap + 1)
+        }
+    }
     
     //prediction of a uiImage
     func predict(image: UIImage) -> String {
@@ -69,7 +86,7 @@ class MaskController: UIViewController, UINavigationControllerDelegate, UIImageP
             self.present(alert, animated: true)
         }
         else {
-            self.performSegue(withIdentifier: "toRoom", sender: self)
+            self.check = 1
         }
     }
 }
@@ -101,3 +118,4 @@ extension UIImage {
         return pixelBuffer
     }
 }
+

@@ -16,8 +16,12 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var preview: AVCaptureVideoPreviewLayer!
     var ref: DatabaseReference!
     var qrCodeFrameView: UIView?
+    
+    //variables for firebase
     var roomCap = 0
     var roomMax = 0;
+    var qr = "";
+    var roomName = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
@@ -118,8 +122,12 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             }
             else {
                 self.performSegue(withIdentifier: "toFace", sender: self)
+                
+                //saving firebase data to user defaults
                 let defaults = UserDefaults.standard
-                defaults.set(25, forKey: "Age")
+                defaults.set(self.roomCap, forKey: "cap")
+                defaults.set(self.roomName, forKey: "name")
+                defaults.set(self.qr, forKey: "qr")
             }
         })
 
@@ -131,6 +139,8 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
              if let Dict = snapshot.value as? [String:Any] {
                 self.roomCap = Dict["capacity"] as! Int
                 self.roomMax = Dict["max"] as! Int
+                self.qr = String(code)
+                self.roomName = Dict["name"] as! String
                 completion("DONE")
             }
             completion("DONE")
