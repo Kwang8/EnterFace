@@ -18,7 +18,10 @@ class websiteController: UIViewController, WKNavigationDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://enterface-aebfa.web.app/")!
+        let websiteDataTypes = NSSet(array: [WKWebsiteDataTypeDiskCache, WKWebsiteDataTypeMemoryCache])
+        let date = Date(timeIntervalSince1970: 0)
+        WKWebsiteDataStore.default().removeData(ofTypes: websiteDataTypes as! Set<String>, modifiedSince: date, completionHandler:{ })
+        let url = URL(string:"https://enterface-aebfa.web.app/")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
     }
