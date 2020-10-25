@@ -33,28 +33,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M0n-UA-hXE">
-                                <rect key="frame" x="87" y="542" width="241" height="99"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qra-8V-d01">
-                                <rect key="frame" x="87" y="680" width="241" height="99"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97g-8a-CMi">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97g-8a-CMi">
                                 <rect key="frame" x="40" y="161" width="335" height="326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
@@ -63,113 +44,89 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-id-xSP">
-                                <rect key="frame" x="87" y="551" width="241" height="80"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
-                                <state key="normal" title=" Scan QR">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-id-xSP">
+                                <rect key="frame" x="87" y="559" width="235" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="31"/>
+                                <state key="normal" title=" Scan QR" image="icons8-camera-64">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="GHa-Ha-rBa" kind="show" id="hIo-ch-x8h"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qr-code" translatesAutoresizingMaskIntoConstraints="NO" id="96X-ue-VBT">
-                                <rect key="frame" x="27" y="563" width="512" height="57"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="6Vc-tE-y6N"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Th0-DX-9HF">
-                                <rect key="frame" x="120" y="700" width="75" height="58"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQU-d4-ZCY">
-                                <rect key="frame" x="157" y="689" width="180" height="80"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
-                                <state key="normal" title="Map">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQU-d4-ZCY">
+                                <rect key="frame" x="83" y="685" width="239" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="31"/>
+                                <state key="normal" title=" Map" image="icons8-map-64">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="CcK-mA-MrS" kind="show" id="HuB-Pt-4hm"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember to wear your mask properly to enter the room!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMx-wD-amV">
-                                <rect key="frame" x="62" y="301" width="285" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="OAd-NM-D7e"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember to wear your mask properly to enter the room!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMx-wD-amV">
+                                <rect key="frame" x="106" y="308" width="262" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please make sure to press &quot;leave&quot; before leaving a room!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lb-lD-hL7">
-                                <rect key="frame" x="53" y="377" width="303" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="EDN-jG-RB2"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please make sure to press &quot;leave&quot; before leaving a room!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lb-lD-hL7">
+                                <rect key="frame" x="104" y="377" width="290" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smile for the Camera!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDJ-Vg-dzB">
-                                <rect key="frame" x="120" y="258" width="165" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="EoX-Tz-6ue"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Smile for the Camera!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDJ-Vg-dzB">
+                                <rect key="frame" x="106" y="258" width="165" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start by scanning the QR code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JD-7l-Tyg">
-                                <rect key="frame" x="83" y="202" width="239" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="ipm-3B-HIY"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start by scanning the QR code" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JD-7l-Tyg">
+                                <rect key="frame" x="104" y="202" width="239" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scan" translatesAutoresizingMaskIntoConstraints="NO" id="LQJ-Eg-z81">
+                                <rect key="frame" x="48" y="195" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="xT3-Re-Hac">
+                                <rect key="frame" x="50" y="258" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="esc" translatesAutoresizingMaskIntoConstraints="NO" id="8lF-7L-bWt">
+                                <rect key="frame" x="50" y="387" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mask" translatesAutoresizingMaskIntoConstraints="NO" id="SY6-B8-ugz">
+                                <rect key="frame" x="50" y="318" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0039215686274509803" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="SMx-wD-amV" firstAttribute="centerX" secondItem="1Lb-lD-hL7" secondAttribute="centerX" id="43B-pW-Tjg"/>
-                            <constraint firstItem="Th0-DX-9HF" firstAttribute="centerY" secondItem="EQU-d4-ZCY" secondAttribute="centerY" id="4Wl-A4-Wn5"/>
-                            <constraint firstItem="97g-8a-CMi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="161" id="67W-yu-V5G"/>
-                            <constraint firstItem="3JD-7l-Tyg" firstAttribute="centerX" secondItem="bDJ-Vg-dzB" secondAttribute="centerX" id="69U-kI-uO3"/>
-                            <constraint firstItem="Qra-8V-d01" firstAttribute="top" secondItem="M0n-UA-hXE" secondAttribute="bottom" constant="39" id="7cO-cU-6Vd"/>
-                            <constraint firstItem="EQU-d4-ZCY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="8hQ-0E-23I"/>
-                            <constraint firstItem="96X-ue-VBT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="8uk-Vh-8nj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EQU-d4-ZCY" secondAttribute="trailing" constant="77" id="9Qw-kF-0Zm"/>
-                            <constraint firstItem="3JD-7l-Tyg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="Alo-8l-5bt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qra-8V-d01" secondAttribute="bottom" constant="29" id="DaC-cQ-XoY"/>
-                            <constraint firstItem="EQU-d4-ZCY" firstAttribute="top" secondItem="M0n-UA-hXE" secondAttribute="bottom" constant="48" id="G6Z-Xi-T5V"/>
-                            <constraint firstItem="M0n-UA-hXE" firstAttribute="trailing" secondItem="f1n-id-xSP" secondAttribute="trailing" id="QCV-GS-eHY"/>
-                            <constraint firstItem="Qra-8V-d01" firstAttribute="top" secondItem="f1n-id-xSP" secondAttribute="bottom" constant="49" id="ReA-ad-rB4"/>
-                            <constraint firstItem="bDJ-Vg-dzB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Rhk-Kq-lAR"/>
-                            <constraint firstItem="97g-8a-CMi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Uji-NS-ct8"/>
-                            <constraint firstItem="bDJ-Vg-dzB" firstAttribute="top" secondItem="3JD-7l-Tyg" secondAttribute="bottom" constant="21" id="Uv5-R9-He7"/>
-                            <constraint firstItem="bDJ-Vg-dzB" firstAttribute="leading" secondItem="Th0-DX-9HF" secondAttribute="leading" id="aa8-zF-Jz4"/>
-                            <constraint firstItem="3JD-7l-Tyg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="bGk-iG-3ow"/>
-                            <constraint firstItem="M0n-UA-hXE" firstAttribute="centerY" secondItem="f1n-id-xSP" secondAttribute="centerY" id="bh8-J9-U7n"/>
-                            <constraint firstItem="f1n-id-xSP" firstAttribute="leading" secondItem="Qra-8V-d01" secondAttribute="leading" id="d77-lA-f6e"/>
-                            <constraint firstItem="SMx-wD-amV" firstAttribute="top" secondItem="bDJ-Vg-dzB" secondAttribute="bottom" constant="8" id="dIW-VX-xuL"/>
-                            <constraint firstItem="97g-8a-CMi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="em2-Z6-whp"/>
-                            <constraint firstItem="1Lb-lD-hL7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="g5f-7d-OXS"/>
-                            <constraint firstItem="SMx-wD-amV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="hB1-9a-DZ7"/>
-                            <constraint firstItem="Qra-8V-d01" firstAttribute="centerY" secondItem="Th0-DX-9HF" secondAttribute="centerY" id="hOl-c2-x0g"/>
-                            <constraint firstItem="M0n-UA-hXE" firstAttribute="top" secondItem="1Lb-lD-hL7" secondAttribute="bottom" constant="97" id="kbb-at-9ah"/>
-                            <constraint firstItem="Qra-8V-d01" firstAttribute="top" secondItem="96X-ue-VBT" secondAttribute="bottom" constant="60" id="lzE-rx-x0T"/>
-                            <constraint firstItem="96X-ue-VBT" firstAttribute="centerY" secondItem="f1n-id-xSP" secondAttribute="centerY" id="miA-Qt-vAM"/>
-                            <constraint firstItem="97g-8a-CMi" firstAttribute="centerX" secondItem="f1n-id-xSP" secondAttribute="centerX" id="pOJ-eY-0yp"/>
-                            <constraint firstItem="M0n-UA-hXE" firstAttribute="top" secondItem="97g-8a-CMi" secondAttribute="bottom" constant="55" id="q0b-wy-yxy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Th0-DX-9HF" secondAttribute="trailing" constant="219" id="rOM-Wx-UOc"/>
-                            <constraint firstItem="f1n-id-xSP" firstAttribute="trailing" secondItem="Qra-8V-d01" secondAttribute="trailing" id="t9l-Rx-29X"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Lb-lD-hL7" secondAttribute="trailing" constant="58" id="tY6-nF-7vY"/>
-                            <constraint firstItem="1Lb-lD-hL7" firstAttribute="top" secondItem="SMx-wD-amV" secondAttribute="bottom" constant="8" id="w62-fs-6aH"/>
-                            <constraint firstItem="f1n-id-xSP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="yR9-A4-e3U"/>
-                            <constraint firstItem="M0n-UA-hXE" firstAttribute="leading" secondItem="f1n-id-xSP" secondAttribute="leading" id="zd6-Zt-rpe"/>
-                            <constraint firstItem="Th0-DX-9HF" firstAttribute="top" secondItem="M0n-UA-hXE" secondAttribute="bottom" constant="59" id="ziD-Q5-Tno"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hv6-fG-GbD"/>
                 </viewController>
@@ -211,17 +168,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0Q-la-AUX">
-                                <rect key="frame" x="155" y="401" width="104" height="66"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0Q-la-AUX">
+                                <rect key="frame" x="96" y="603" width="223" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Scan"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="31"/>
+                                <state key="normal" title=" Scan" image="icons8-camera-64">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="ScanPressed:" destination="fLp-Bc-n2v" eventType="touchUpInside" id="iQd-6T-xlc"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-10-25 at 2.08.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="0zD-n7-sGd">
+                                <rect key="frame" x="41" y="177" width="332" height="348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uD2-e6-AZS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="kEZ-ro-f1F"/>
                     <connections>
@@ -240,48 +211,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PrW-lN-HrC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PrW-lN-HrC">
                                 <rect key="frame" x="46" y="153" width="322" height="321"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="321" id="CY6-O0-3J2"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFM-R9-hOC">
-                                <rect key="frame" x="149" y="577" width="116" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="KXy-WR-85y"/>
-                                </constraints>
-                                <state key="normal" title="Leave Room"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFM-R9-hOC">
+                                <rect key="frame" x="75" y="588" width="274" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="21"/>
+                                <state key="normal" title="Leave Room" image="Door">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="leavePressed:" destination="ElG-5o-8vs" eventType="touchUpInside" id="kb1-R0-Zzu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Room 218" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTJ-Xv-D1E">
-                                <rect key="frame" x="145" y="49" width="125" height="82"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="82" id="DyA-jp-qgt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Room 218" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTJ-Xv-D1E">
+                                <rect key="frame" x="108" y="20" width="208" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Jd-2W-6tf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ZFM-R9-hOC" firstAttribute="leading" secondItem="0Jd-2W-6tf" secondAttribute="leading" constant="149" id="2Mn-96-eID"/>
-                            <constraint firstItem="sTJ-Xv-D1E" firstAttribute="leading" secondItem="0Jd-2W-6tf" secondAttribute="leading" constant="145" id="9GO-gz-yVF"/>
-                            <constraint firstItem="sTJ-Xv-D1E" firstAttribute="centerX" secondItem="PrW-lN-HrC" secondAttribute="centerX" id="ARz-IT-PZ0"/>
-                            <constraint firstItem="sTJ-Xv-D1E" firstAttribute="centerX" secondItem="9z4-c3-Ti7" secondAttribute="centerX" id="PnB-4V-rTB"/>
-                            <constraint firstItem="sTJ-Xv-D1E" firstAttribute="top" secondItem="0Jd-2W-6tf" secondAttribute="top" constant="49" id="QWC-3V-rur"/>
-                            <constraint firstItem="0Jd-2W-6tf" firstAttribute="bottom" secondItem="ZFM-R9-hOC" secondAttribute="bottom" constant="111" id="TUn-D4-GBw"/>
-                            <constraint firstItem="PrW-lN-HrC" firstAttribute="leading" secondItem="0Jd-2W-6tf" secondAttribute="leading" constant="46" id="nWT-US-okE"/>
-                            <constraint firstItem="PrW-lN-HrC" firstAttribute="top" secondItem="sTJ-Xv-D1E" secondAttribute="bottom" constant="22" id="oys-6T-5qw"/>
-                            <constraint firstItem="PrW-lN-HrC" firstAttribute="centerX" secondItem="ZFM-R9-hOC" secondAttribute="centerX" id="sNF-7H-yyc"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ky2-j8-cqW"/>
                     <connections>
+                        <outlet property="image" destination="PrW-lN-HrC" id="n7x-Lm-iFm"/>
                         <outlet property="roomImage" destination="PrW-lN-HrC" id="KFw-ZN-3FC"/>
                         <outlet property="roomName" destination="sTJ-Xv-D1E" id="t6d-U0-4dW"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="roomToHome" id="Z4Q-D8-vv0"/>
@@ -289,12 +254,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="725-7V-X6w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="-700"/>
+            <point key="canvasLocation" x="1013.0434782608696" y="-700.44642857142856"/>
         </scene>
     </scenes>
     <resources>
-        <image name="map" width="512" height="512"/>
-        <image name="qr-code" width="512" height="512"/>
+        <image name="Door" width="128" height="128"/>
+        <image name="Image" width="128" height="128"/>
+        <image name="Screen Shot 2020-10-25 at 2.08.57 AM" width="558" height="284"/>
+        <image name="esc" width="128" height="128"/>
+        <image name="icons8-camera-64" width="64" height="64"/>
+        <image name="icons8-map-64" width="64" height="64"/>
+        <image name="mask" width="128" height="128"/>
+        <image name="scan" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

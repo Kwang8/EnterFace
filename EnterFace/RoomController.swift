@@ -14,6 +14,7 @@ class RoomController: UIViewController {
     var qr = "";
     var roomNam = ""
     
+    @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var roomName: UILabel!
     
     @IBOutlet weak var roomImage: UIImageView!
@@ -22,6 +23,15 @@ class RoomController: UIViewController {
     
         roomNam = UserDefaults.standard.string(forKey: "name") ?? "none"
         roomName.text = roomNam
+        if (roomNam == "Gym") {
+            image.image = UIImage(named: "Gym")
+        }
+        else if(roomNam == "Auditorium") {
+            image.image = UIImage(named: "Auditorium")
+        }
+        else {
+            image.image = UIImage(named: "Room")
+        }
     }
     @IBAction func leavePressed(_ sender: Any) {
         
@@ -29,6 +39,7 @@ class RoomController: UIViewController {
         roomCap = userDefaults.integer(forKey: "cap") ?? -5
         roomNam = userDefaults.string(forKey: "name") ?? "none"
         qr = userDefaults.string(forKey: "qr") ?? "error"
+        roomName.text = roomNam
         var ref = Database.database().reference().child(qr)
         ref.child("capacity").setValue(roomCap)
         performSegue(withIdentifier: "roomToHome", sender: self)
