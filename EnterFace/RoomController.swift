@@ -19,6 +19,8 @@ class RoomController: UIViewController {
     @IBOutlet weak var roomImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        roomNam = UserDefaults.standard.string(forKey: "name") ?? "none"
         roomName.text = roomNam
     }
     @IBAction func leavePressed(_ sender: Any) {

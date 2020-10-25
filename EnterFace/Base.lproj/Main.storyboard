@@ -9,6 +9,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Website Controller-->
+        <scene sceneID="k7J-FJ-dBu">
+            <objects>
+                <viewController id="CcK-mA-MrS" customClass="websiteController" customModule="EnterFace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BT8-wD-vw1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MBr-7r-jYW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ik7-sh-WEg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sts-qE-6u3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-819" y="120"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -17,22 +33,154 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-id-xSP">
-                                <rect key="frame" x="161" y="416" width="93" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Scan QR"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M0n-UA-hXE">
+                                <rect key="frame" x="87" y="542" width="241" height="99"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qra-8V-d01">
+                                <rect key="frame" x="87" y="680" width="241" height="99"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97g-8a-CMi">
+                                <rect key="frame" x="40" y="161" width="335" height="326"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-id-xSP">
+                                <rect key="frame" x="87" y="551" width="241" height="80"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
+                                <state key="normal" title=" Scan QR">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="GHa-Ha-rBa" kind="show" id="hIo-ch-x8h"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qr-code" translatesAutoresizingMaskIntoConstraints="NO" id="96X-ue-VBT">
+                                <rect key="frame" x="27" y="563" width="512" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="6Vc-tE-y6N"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Th0-DX-9HF">
+                                <rect key="frame" x="120" y="700" width="75" height="58"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQU-d4-ZCY">
+                                <rect key="frame" x="157" y="689" width="180" height="80"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
+                                <state key="normal" title="Map">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CcK-mA-MrS" kind="show" id="HuB-Pt-4hm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember to wear your mask properly to enter the room!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMx-wD-amV">
+                                <rect key="frame" x="62" y="301" width="285" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="OAd-NM-D7e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please make sure to press &quot;leave&quot; before leaving a room!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lb-lD-hL7">
+                                <rect key="frame" x="53" y="377" width="303" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="EDN-jG-RB2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smile for the Camera!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDJ-Vg-dzB">
+                                <rect key="frame" x="120" y="258" width="165" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="EoX-Tz-6ue"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start by scanning the QR code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JD-7l-Tyg">
+                                <rect key="frame" x="83" y="202" width="239" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ipm-3B-HIY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SMx-wD-amV" firstAttribute="centerX" secondItem="1Lb-lD-hL7" secondAttribute="centerX" id="43B-pW-Tjg"/>
+                            <constraint firstItem="Th0-DX-9HF" firstAttribute="centerY" secondItem="EQU-d4-ZCY" secondAttribute="centerY" id="4Wl-A4-Wn5"/>
+                            <constraint firstItem="97g-8a-CMi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="161" id="67W-yu-V5G"/>
+                            <constraint firstItem="3JD-7l-Tyg" firstAttribute="centerX" secondItem="bDJ-Vg-dzB" secondAttribute="centerX" id="69U-kI-uO3"/>
+                            <constraint firstItem="Qra-8V-d01" firstAttribute="top" secondItem="M0n-UA-hXE" secondAttribute="bottom" constant="39" id="7cO-cU-6Vd"/>
+                            <constraint firstItem="EQU-d4-ZCY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="8hQ-0E-23I"/>
+                            <constraint firstItem="96X-ue-VBT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="8uk-Vh-8nj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EQU-d4-ZCY" secondAttribute="trailing" constant="77" id="9Qw-kF-0Zm"/>
+                            <constraint firstItem="3JD-7l-Tyg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="Alo-8l-5bt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qra-8V-d01" secondAttribute="bottom" constant="29" id="DaC-cQ-XoY"/>
+                            <constraint firstItem="EQU-d4-ZCY" firstAttribute="top" secondItem="M0n-UA-hXE" secondAttribute="bottom" constant="48" id="G6Z-Xi-T5V"/>
+                            <constraint firstItem="M0n-UA-hXE" firstAttribute="trailing" secondItem="f1n-id-xSP" secondAttribute="trailing" id="QCV-GS-eHY"/>
+                            <constraint firstItem="Qra-8V-d01" firstAttribute="top" secondItem="f1n-id-xSP" secondAttribute="bottom" constant="49" id="ReA-ad-rB4"/>
+                            <constraint firstItem="bDJ-Vg-dzB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Rhk-Kq-lAR"/>
+                            <constraint firstItem="97g-8a-CMi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Uji-NS-ct8"/>
+                            <constraint firstItem="bDJ-Vg-dzB" firstAttribute="top" secondItem="3JD-7l-Tyg" secondAttribute="bottom" constant="21" id="Uv5-R9-He7"/>
+                            <constraint firstItem="bDJ-Vg-dzB" firstAttribute="leading" secondItem="Th0-DX-9HF" secondAttribute="leading" id="aa8-zF-Jz4"/>
+                            <constraint firstItem="3JD-7l-Tyg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="bGk-iG-3ow"/>
+                            <constraint firstItem="M0n-UA-hXE" firstAttribute="centerY" secondItem="f1n-id-xSP" secondAttribute="centerY" id="bh8-J9-U7n"/>
+                            <constraint firstItem="f1n-id-xSP" firstAttribute="leading" secondItem="Qra-8V-d01" secondAttribute="leading" id="d77-lA-f6e"/>
+                            <constraint firstItem="SMx-wD-amV" firstAttribute="top" secondItem="bDJ-Vg-dzB" secondAttribute="bottom" constant="8" id="dIW-VX-xuL"/>
+                            <constraint firstItem="97g-8a-CMi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="em2-Z6-whp"/>
+                            <constraint firstItem="1Lb-lD-hL7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="g5f-7d-OXS"/>
+                            <constraint firstItem="SMx-wD-amV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="hB1-9a-DZ7"/>
+                            <constraint firstItem="Qra-8V-d01" firstAttribute="centerY" secondItem="Th0-DX-9HF" secondAttribute="centerY" id="hOl-c2-x0g"/>
+                            <constraint firstItem="M0n-UA-hXE" firstAttribute="top" secondItem="1Lb-lD-hL7" secondAttribute="bottom" constant="97" id="kbb-at-9ah"/>
+                            <constraint firstItem="Qra-8V-d01" firstAttribute="top" secondItem="96X-ue-VBT" secondAttribute="bottom" constant="60" id="lzE-rx-x0T"/>
+                            <constraint firstItem="96X-ue-VBT" firstAttribute="centerY" secondItem="f1n-id-xSP" secondAttribute="centerY" id="miA-Qt-vAM"/>
+                            <constraint firstItem="97g-8a-CMi" firstAttribute="centerX" secondItem="f1n-id-xSP" secondAttribute="centerX" id="pOJ-eY-0yp"/>
+                            <constraint firstItem="M0n-UA-hXE" firstAttribute="top" secondItem="97g-8a-CMi" secondAttribute="bottom" constant="55" id="q0b-wy-yxy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Th0-DX-9HF" secondAttribute="trailing" constant="219" id="rOM-Wx-UOc"/>
+                            <constraint firstItem="f1n-id-xSP" firstAttribute="trailing" secondItem="Qra-8V-d01" secondAttribute="trailing" id="t9l-Rx-29X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Lb-lD-hL7" secondAttribute="trailing" constant="58" id="tY6-nF-7vY"/>
+                            <constraint firstItem="1Lb-lD-hL7" firstAttribute="top" secondItem="SMx-wD-amV" secondAttribute="bottom" constant="8" id="w62-fs-6aH"/>
+                            <constraint firstItem="f1n-id-xSP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="yR9-A4-e3U"/>
+                            <constraint firstItem="M0n-UA-hXE" firstAttribute="leading" secondItem="f1n-id-xSP" secondAttribute="leading" id="zd6-Zt-rpe"/>
+                            <constraint firstItem="Th0-DX-9HF" firstAttribute="top" secondItem="M0n-UA-hXE" secondAttribute="bottom" constant="59" id="ziD-Q5-Tno"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hv6-fG-GbD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember to wear your mask properly to enter the room!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TWG-kd-Uoc">
+                    <rect key="frame" x="0.0" y="0.0" width="285" height="68"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="119.86607142857142"/>
         </scene>
@@ -145,6 +293,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="map" width="512" height="512"/>
+        <image name="qr-code" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
